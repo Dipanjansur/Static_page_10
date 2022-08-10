@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.image_container{
+    margin-top:30px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 3px solid white; */
+}
+li{
+    list-style: none;
+    padding:5px 20px;
+    margin:0px 5px;
+}
+.nav_call_container{
+    display: flex;
+    margin:30px 10px;
+}
+.nav_call_container img{
+    height: 6vh;
+    margin-right: 10px;
+}
+.call_details p{
+    margin: 5px 0px;
+}
+.straight_line{
+    width: 60%;
+    position: relative;
+    left: 30vw;
+}
+body{
+    background-image: url("../images/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+}
+.tagline{
+    font-size: 2rem;
+    margin-top:10vh;
+    margin-left:5vw;
+    width:50vw;
+}
+.basic_img{
+height:7vh;
+background-color:white;
+padding: 5px 20px;
+margin-top:10px;
+margin-left:10px;
+border-radius: 20px;
+}
+.puzz_container{
+background-color: rgba(255, 255, 255, 0.281);
+height:20vh;
+width:20vw;
+position:absolute;
+top:30vh;
+left:70vw; 
+}
+.light_containr{
+background-color: rgba(255, 255, 255, 0.281);
+height:20vh;
+width:20vw;
+position:absolute;
+top:70vh;
+left:50vw;
+}
+.basic_img+p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.button-div{
+    margin-top:10vh;
+    margin-left:5vw;
+   
+}
+.button-div button{
+    padding: 1rem 3.5rem;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+.line_img_fir{
+    position:relative;
+    top:5vh;
+    left:15vw;
+}
+.line_img_sec{
+    position:relative;
+    transform: rotate(270deg);
+    top:-10vh;
+    left:21.2vw; 
+}
